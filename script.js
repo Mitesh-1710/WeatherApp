@@ -37,6 +37,10 @@ let weather = {
         {
             document.querySelector('.container').style.backgroundImage = "url('snow.jpg')";
         }
+        else
+        {
+            document.querySelector('.container').style.backgroundImage = "url('haze.jpg')";
+        }
       
     },
     search : function(){
