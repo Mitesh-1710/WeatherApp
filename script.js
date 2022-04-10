@@ -37,7 +37,7 @@ let weather = {
         {
             document.querySelector('.container').style.backgroundImage = "url('snow.jpg')";
         }
-        else
+        else if(description == "mist" || "haze") 
         {
             document.querySelector('.container').style.backgroundImage = "url('haze.JPG')";
         }
