@@ -37,7 +37,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
-  img{
+  nav img{
       height: 50px;
       width: 50px;
       animation: glowLogo 6s infinite ease-in-out;
@@ -229,7 +229,7 @@ body {
     nav h1{
         font-size: 30px;
     }
-    img{
+    nav img{
         height: 30px;
         width: 30px;
     }
