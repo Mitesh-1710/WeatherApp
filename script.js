@@ -25,7 +25,7 @@ let weather = {
         {
             document.querySelector('.container').style.backgroundImage = "url('cloudy.jpg')";
         }
-        else if(description == "shower rain" || "rain" )
+        else if(description == "shower rain" || "rain" || "moderate rain")
         {
             document.querySelector('.container').style.backgroundImage = "url('rain.jpg')";
         }
@@ -37,7 +37,7 @@ let weather = {
         {
             document.querySelector('.container').style.backgroundImage = "url('snow.jpg')";
         }
-        else if(description == "mist" || "haze") 
+        else if(description == "mist" || "Haze" || "fog") 
         {
             document.querySelector('.container').style.backgroundImage = "url('haze.JPG')";
         }
