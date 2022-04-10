@@ -25,7 +25,7 @@ let weather = {
         {
             document.querySelector('.container').style.backgroundImage = "url('cloudy.jpg')";
         }
-        else if(description == "shower rain" || "rain" || "moderate rain")
+        else if(description == "shower rain" || "rain" || "moderate rain" || "heavy intensity rain")
         {
             document.querySelector('.container').style.backgroundImage = "url('rain.jpg')";
         }
