@@ -39,7 +39,7 @@ let weather = {
         }
         else
         {
-            document.querySelector('.container').style.backgroundImage = "url('haze.jpg')";
+            document.querySelector('.container').style.backgroundImage = "url('haze.JPG')";
         }
       
     },
