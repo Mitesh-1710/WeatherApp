@@ -14,8 +14,7 @@ let weather = {
         document.querySelector(".city").innerHTML = `Weather in ${name}`;
         document.querySelector('.icon').src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
         document.querySelector(".description").innerHTML = description;
-        document.querySelector(".temp").innerHTML = temp + "°C";
-        document.querySelector(".weather").classList.remove("loading");
+        document.querySelector(".temp").innerHTML = temp + " °C";
         document.querySelector(".wind").innerHTML =
         "Wind Speed : " + speed + " km/h";
         if(description == "clear sky")
@@ -45,7 +44,6 @@ let weather = {
     },
     
 };
-
 document.querySelector('.search-btn').addEventListener('click',function(){
 
     weather.search();
