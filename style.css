@@ -266,5 +266,9 @@ body {
       
     input.search-bar {
         width: 220px;
+        height: 35px;
+    }
+    button {
+        height: 35px;
     }
 }
