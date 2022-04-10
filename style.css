@@ -17,12 +17,72 @@ body {
     background-size:cover;
     overflow:hidden;
   }
+  nav{
+     display: flex;
+     justify-content: center;
+     height: auto;
+     background-color: #000000d0;
+     width: 100vw ;
+     opacity: 0.9;
+     padding: 10px;
+  }
 
-  h1{
+  nav h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 0px 8px white, 0px 0px 10px white;
+    animation: glow 6s infinite ease-in-out;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  img{
+      height: 50px;
+      width: 50px;
+      animation: glowLogo 6s infinite ease-in-out;
+  }
+  @keyframes glowLogo {
+    20% {
+        box-shadow: 0px 0px 6px #27235E, 0px 0px 8px #27235E;
+      }
+    
+      40% {
+        box-shadow: 0px 0px 10px #27235E, 0px 0px 12px #27235E;
+      }
+    
+      60% {
+        box-shadow: 0px 0px 6px #27235E, 0px 0px 8px #27235E;
+      }
+    
+      80% {
+    
+        box-shadow: 0px 0px 10px #27235E, 0px 0px 12px #27235E;
+      }
+      100% {
+    
+        box-shadow: 0px 0px 6px #27235E, 0px 0px 8px #27235E;
+      }
+  }
+  .intro{
+      text-align: justify;
+  }
+  .intro h1{
     margin-top: 100px;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     font-size: 50px;
+    opacity: 1;
+    text-shadow: 0px 0px 8px white, 0px 0px 10px white;
+    animation: glow 6s infinite ease-in-out;
+    text-align: center;
+  }
+
+  .intro p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
     opacity: 1;
     text-shadow: 0px 0px 8px white, 0px 0px 10px white;
     animation: glow 6s infinite ease-in-out;
@@ -166,12 +226,21 @@ body {
        width: 340px;
        height: 350px;
     }
-
-    h1{
+    nav h1{
+        font-size: 30px;
+    }
+    img{
+        height: 30px;
+        width: 30px;
+    }
+    .intro h1{
         font-size: 30px;
         margin-top: 60px;
-        margin-bottom: 60px;
         font-family: 'Courier New', Courier, monospace;
+    }
+    .intro p{
+        margin-top: 5px;
+        margin-bottom: 60px;
     }
     .weather {
 
