@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
 *{
     box-sizing: border-box;
     margin:0;
@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', sans-serif;
     background: #222;
     background-image: url('weather\ main.jpg');
     background-repeat: no-repeat;
@@ -19,8 +19,9 @@ body {
   }
 
   h1{
-    font-family: 'Monoton', cursive;
-    color: rgb(83, 78, 78);
+    margin-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
     font-size: 50px;
     opacity: 1;
     text-shadow: 0px 0px 8px white, 0px 0px 10px white;
@@ -31,24 +32,24 @@ body {
   @keyframes glow {
 
     20% {
-      text-shadow: 0px 0px 4px white, 0px 0px 6px white;
+      text-shadow: 0px 0px 4px white, 0px 0px 6px black;
     }
   
     40% {
-      text-shadow: 0px 0px 8px white, 0px 0px 10px white;
+      text-shadow: 0px 0px 8px white, 0px 0px 10px black;
     }
   
     60% {
-      text-shadow: 0px 0px 4px white, 0px 0px 6px white;
+      text-shadow: 0px 0px 4px white, 0px 0px 6px black;
     }
   
     80% {
   
-      text-shadow: 0px 0px 8px white, 0px 0px 10px white;
+      text-shadow: 0px 0px 8px white, 0px 0px 10px black;
     }
     100% {
   
-        text-shadow: 0px 0px 4px white, 0px 0px 6px white;
+        text-shadow: 0px 0px 4px white, 0px 0px 6px black;
     }
   }
   
@@ -168,8 +169,9 @@ body {
 
     h1{
         font-size: 30px;
-        margin-top: 20px;
+        margin-top: 60px;
         margin-bottom: 60px;
+        font-family: 'Courier New', Courier, monospace;
     }
     .weather {
 
@@ -177,8 +179,4 @@ body {
         margin-top: 35px;
     
     }
-}
-
-@media only screen and (max-width: 1400px){
-    
 }
