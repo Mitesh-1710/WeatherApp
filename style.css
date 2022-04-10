@@ -125,6 +125,7 @@ body {
     background-size:cover;
     overflow:hidden;
     animation: glowContainer 6s infinite ease-in-out;
+    background-image: url('clearsky.jpg');
   }
   @keyframes glowContainer {
     20% {
@@ -191,20 +192,6 @@ body {
     margin-top: 20px;
 
   }
-   
-  .weather.loading {
-    visibility: hidden;
-    max-height: 20px;
-    position: relative;
-  }
-  
-  .weather.loading:after {
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 20px;
-  }
-
 
   .temp {
     margin-top: 20px;
@@ -252,6 +239,6 @@ body {
     
     }
     input.search-bar {
-        width: 230px;
+        width: 220px;
     }
 }
